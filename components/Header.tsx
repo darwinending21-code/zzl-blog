@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-import Logo from "@/assets/images/logo.jpg";
+import Logo from "@/assets/images/logo.jpg"
 
 const navLinks = [
   { title: "About/关于", path: "/about" },
