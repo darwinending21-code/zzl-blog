@@ -94,7 +94,7 @@ setPublicPath( `/assets/images/project/${item.id}/`)
           </Link>
           {/* 标签 */}
           <div className="mb-4 flex flex-wrap gap-2">
-            {projectItem?.tags?.length>0 && projectItem?.tags?.map((tag, index) => (
+            {projectItem?.tags?.length>0 && projectItem?.tags?.map((tag:any, index:number) => (
               <span
                 key={index}
                 className={`bg-black rounded px-2 py-1 text-xs text-white`}
